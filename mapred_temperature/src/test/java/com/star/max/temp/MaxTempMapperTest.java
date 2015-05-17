@@ -23,6 +23,5 @@ public class MaxTempMapperTest {
 				.withMapper(new MaxTempMapper())
 				.withInput(new LongWritable(0), value)
 				.withOutput(new Text("1950"), new IntWritable(-11)).runTest();
-
 	}
 }
